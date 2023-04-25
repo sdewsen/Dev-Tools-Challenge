@@ -14,7 +14,7 @@ const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
     console.log(`Hi im ${sarasa}`)
 
     // Styled
-    console.log('%c I am a great text',"font-size:50px")
+    console.log('%c I am a great text',"font-size:50px;color:red;")
 
     // warning!
     console.warn("Oh no!!")
@@ -29,7 +29,7 @@ const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
     console.assert(p.classList.contains('ouch'),"You chose the wrong element")
 
     // clearing
-    console.clear()
+    //console.clear()
 
     // Viewing DOM Elements
     console.log('p')
